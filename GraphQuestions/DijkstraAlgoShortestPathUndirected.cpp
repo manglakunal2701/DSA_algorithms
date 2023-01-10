@@ -19,7 +19,7 @@ int  main(){
        cin>>v;
        cin>>wt;
        arr[u].push_back({v,wt});
-      // arr[v].push_back({u,wt});
+       arr[v].push_back({u,wt});
    }
    for(int i=1;i<n+1;i++){
        cout<<i<<"->";
@@ -53,6 +53,7 @@ int  main(){
     for(int i=1;i<n+1;i++){
         cout<<distArray[i]<<" ";
     }
+    // C:\Users\Kunal Mangla\Desktop\DSA_algorithms\GraphQuestions\DijkstraAlgoShortestPathUndirected.cpp
     cout<<endl<<"the shortest distance of each vertex from source node is:"<<endl;
     for(int i=1;i<parent.size();i++){
         printParent(parent,i);

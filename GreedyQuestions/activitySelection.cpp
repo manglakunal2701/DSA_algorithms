@@ -13,7 +13,7 @@ int main(){
     }
    
     sort(arr.begin(),arr.end());//sort the final state in ascending order......
-     for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         cout<<i<<"->";
         cout<<arr[i].first<<" "<<arr[i].second<<endl;
     }
